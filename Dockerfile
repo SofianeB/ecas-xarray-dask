@@ -10,7 +10,6 @@ RUN conda install --quiet --yes \
           graphviz \
           netCDF4 \
           bottleneck \
-          basemap \
           ipywidgets \
           'tornado < 6' \
           cartopy \
