@@ -10,6 +10,7 @@ RUN conda install --quiet --yes \
           graphviz \
           netCDF4 \
           bottleneck \
+          nc-time-axis \
           ipywidgets \
           'tornado < 6' \
           cartopy \
