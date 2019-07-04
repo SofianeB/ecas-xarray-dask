@@ -1,5 +1,5 @@
 FROM jupyter/base-notebook
-ARG JUPYTERHUB_VERSION=0.9.4
+ARG JUPYTERHUB_VERSION=1.0.0
 RUN conda config --set ssl_verify false
 RUN conda config --add channels conda-forge
 RUN conda config --add channels pyviz
