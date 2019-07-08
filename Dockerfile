@@ -7,6 +7,7 @@ RUN conda install --quiet --yes \
           xarray \
           dask \
           distributed \
+          dask-jobqueue \
           graphviz \
           netCDF4 \
           bottleneck \
